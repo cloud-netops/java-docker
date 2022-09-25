@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: '5a007035-dd14-4b65-9951-d61811236a3b'
-  imageRepository: 'devopssatyajavadocker'
+  imageRepository: 'devopssureshjavadocker'
   containerRegistry: 'myacrrepo456.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/java-docker/Dockerfile'
   tag: '$(Build.BuildId)'
